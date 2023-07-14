@@ -1,1 +1,10 @@
-msg : Hi i am from Git hub...! modified
+spring:
+  datasource:
+    username: admin
+    password: tiger123
+    url: jdbc:mysql://database-1.cpgjeehol6wo.ap-south-1.rds.amazonaws.com:3306/mydb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
